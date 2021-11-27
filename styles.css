@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+body {
+    background-image: url(Images/pawel-czerwinski-vI5XwPbGvmY-unsplash.jpg);
+    background-size:cover;
+}
+
+#pfp {
+    max-width: 120px;
+    padding: 20px;
+    border-radius:25%;
+    vertical-align: middle;
+}
+
+#un {
+    color: #ffffff;
+    display: inline;
+    font-family: 'Outfit', sans-serif;
+    font-size: 7vw;
+    vertical-align: middle;
+    text-shadow: 0px 0px 15px #fff7ee;
+}
