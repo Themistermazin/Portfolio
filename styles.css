@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@900&family=Outfit:wght@400;500&family=Patua+One&display=swap');
 body {
     background-image: url(Images/pawel-czerwinski-vI5XwPbGvmY-unsplash.jpg);
     background-size:cover;
@@ -26,5 +26,49 @@ body {
     font-family: 'Outfit', sans-serif;
     font-size: 3vw;
     padding-left: 15pt;
-    padding-right: 15pt;
 }
+
+.links {
+    padding-left: 20pt;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+a {
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    font-weight: 800;
+    color: white;
+    overflow: hidden;
+    padding: 20px;
+  }
+
+
+
+a {
+    /* Same as before */
+    background: linear-gradient(to right, black, black 50%, white 50%);
+  }
+
+  a {
+    /* Same as before */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+  }
+
+  a {
+    /* Same as before */
+    transition: background-position 275ms ease;
+  }
+  a:hover {
+    background-position: 0 100%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
